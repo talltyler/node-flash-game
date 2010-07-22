@@ -27,7 +27,7 @@ public class Model
 		socket.addEventListener(Event.CONNECT, onConnect);
 		socket.addEventListener(DataEvent.DATA, onData);
 		socket.connect("127.0.0.1", 3002);
-		ExternalInterface.a("clos")
+		ExternalInterface.addCallback("close",close);
 	}
 	
 	public function send(data:String):void
