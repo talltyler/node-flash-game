@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<project name="node" default="compile">
+	<property name="flex.mxmlc" value="mxmlc"/>
+	<property name="deploy.dir" value="../deploy"/>
+	<property name="src.dir" value="../src"/>
+	<target name="compile">
+		<exec executable="${flex.mxmlc}" failonerror="true">
+			<arg line="-output '${deploy.dir}/Main.swf'"/>
+			<arg line="${src.dir}/Main.as"/>
+		</exec>
+	</target>
+</project>

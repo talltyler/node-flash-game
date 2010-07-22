@@ -1,0 +1,58 @@
+9
+
+dir
+64
+http://as3corelib.googlecode.com/svn/trunk/src/com/adobe
+http://as3corelib.googlecode.com/svn
+
+
+
+2008-10-23T02:29:17.041693Z
+64
+darron.schall
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+374f7c76-8224-0410-aa2b-53cc4844e527
+
+crypto
+dir
+
+utils
+dir
+
+protocols
+dir
+
+images
+dir
+
+net
+dir
+
+webapis
+dir
+
+fileformats
+dir
+
+air
+dir
+
+errors
+dir
+
+serialization
+dir
+
